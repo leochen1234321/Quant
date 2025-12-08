@@ -1,0 +1,16 @@
+# Python 版本要求: 3.8 - 3.11 (推荐 3.9 或 3.10)
+
+# 核心依赖
+# hikyuu  # macOS 不支持，使用内置回测引擎
+easytrader>=0.21.0
+akshare>=1.10.0
+
+# 数据处理
+pandas>=1.5.0
+numpy>=1.23.0
+
+# 定时任务
+schedule>=1.2.0
+
+# 日志
+loguru>=0.7.0

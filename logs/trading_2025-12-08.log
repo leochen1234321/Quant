@@ -1,0 +1,24 @@
+2025-12-08 00:26:42.627 | INFO     | data.fetcher:get_stock_history:61 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 00:26:42.687 | ERROR    | data.fetcher:get_minute_data:124 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 00:30:32.788 | ERROR    | data.fetcher:get_stock_list:103 - 获取股票列表失败: Can not decode value starting with character '<'
+2025-12-08 00:30:33.626 | INFO     | data.fetcher:get_stock_history:61 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 00:30:33.695 | ERROR    | data.fetcher:get_minute_data:124 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 00:30:54.648 | ERROR    | data.fetcher:get_stock_list:103 - 获取股票列表失败: Can not decode value starting with character '<'
+2025-12-08 00:30:55.276 | INFO     | data.fetcher:get_stock_history:61 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 00:30:55.326 | ERROR    | data.fetcher:get_minute_data:124 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 00:31:22.842 | ERROR    | data.fetcher:get_stock_list:103 - 获取股票列表失败: Can not decode value starting with character '<'
+2025-12-08 00:31:23.593 | INFO     | data.fetcher:get_stock_history:61 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 00:31:23.664 | WARNING  | data.fetcher:get_minute_data:129 - 获取分钟数据失败，2秒后重试 (1/3)
+2025-12-08 00:31:25.754 | WARNING  | data.fetcher:get_minute_data:129 - 获取分钟数据失败，2秒后重试 (2/3)
+2025-12-08 00:31:27.934 | ERROR    | data.fetcher:get_minute_data:132 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 00:35:03.346 | ERROR    | data.fetcher:get_stock_list:110 - 获取股票列表失败: Can not decode value starting with character '<'
+2025-12-08 00:35:04.581 | INFO     | data.fetcher:get_stock_history:68 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 00:35:04.645 | WARNING  | data.fetcher:get_minute_data:136 - 获取分钟数据失败，2秒后重试 (1/3)
+2025-12-08 00:35:06.722 | WARNING  | data.fetcher:get_minute_data:136 - 获取分钟数据失败，2秒后重试 (2/3)
+2025-12-08 00:35:08.795 | ERROR    | data.fetcher:get_minute_data:139 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 23:24:58.736 | INFO     | data.fetcher:get_stock_history:68 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 23:24:58.804 | WARNING  | data.fetcher:get_minute_data:136 - 获取分钟数据失败，2秒后重试 (1/3)
+2025-12-08 23:25:00.888 | WARNING  | data.fetcher:get_minute_data:136 - 获取分钟数据失败，2秒后重试 (2/3)
+2025-12-08 23:25:02.958 | ERROR    | data.fetcher:get_minute_data:139 - 获取 000001 分钟数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-08 23:54:26.927 | INFO     | data.fetcher:get_stock_history:68 - 获取 000001 历史数据成功，共 225 条
+2025-12-08 23:54:29.196 | INFO     | data.fetcher:get_minute_data:132 - 获取 000001 5分钟数据成功，共 1488 条

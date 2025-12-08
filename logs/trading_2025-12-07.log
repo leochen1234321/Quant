@@ -1,0 +1,18 @@
+2025-12-07 23:51:44.734 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:51:44.846 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+2025-12-07 23:53:20.363 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:20.439 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+2025-12-07 23:53:31.019 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:31.084 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+2025-12-07 23:53:34.712 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:34.776 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: Length mismatch: Expected axis has 12 elements, new values have 11 elements
+2025-12-07 23:53:39.493 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:39.534 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:41.218 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:41.263 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:42.599 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:42.650 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:43.861 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:43.898 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:45.019 | ERROR    | data.fetcher:get_stock_list:69 - 获取股票列表失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 23:53:45.059 | ERROR    | data.fetcher:get_stock_history:44 - 获取 000001 历史数据失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
