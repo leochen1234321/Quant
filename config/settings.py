@@ -15,8 +15,8 @@ class BrokerType(Enum):
 @dataclass
 class BacktestConfig:
     """回测配置"""
-    start_date: str = "2020-01-01"
-    end_date: str = "2024-01-01"
+    start_date: str = "2023-01-01"
+    end_date: str = "2023-12-10"
     initial_capital: float = 1_000_000.0
     commission_rate: float = 0.0003  # 万三佣金
     slippage: float = 0.001  # 滑点

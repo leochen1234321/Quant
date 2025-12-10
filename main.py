@@ -112,7 +112,7 @@ def main():
     parser.add_argument(
         "--symbols",
         nargs="+",
-        default=["000001", "600519"],
+        default=["601138"],
         help="股票代码列表"
     )
     parser.add_argument(

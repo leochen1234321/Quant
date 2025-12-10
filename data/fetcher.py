@@ -141,3 +141,21 @@ class DataFetcher:
         return pd.DataFrame()
 
 
+if __name__ == '__main__':
+    fetcher = DataFetcher()
+
+    # 1. 获取历史日线
+    # df = fetcher.get_stock_history("000001", "2024-01-01", "2024-12-08")
+    # print(df.head())
+    #
+    # # 2. 获取实时行情
+    # df = fetcher.get_realtime_quote(["000001", "600519"])
+    # print(df.head())
+
+    # 3. 获取股票列表
+    # df = fetcher.get_stock_list()
+    # print(df.head())
+
+    # 4. 获取5分钟数据
+    df = fetcher.get_minute_data("000001", period="5")
+    print(df.head())

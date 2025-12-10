@@ -79,14 +79,34 @@ def example_minute_data():
 
 
 if __name__ == "__main__":
-    print("\n" + "=" * 50)
-    print("akshare 数据获取模块使用示例")
-    print("=" * 50 + "\n")
-    
-    # example_stock_list()
-    # example_history_data()
-    example_minute_data()
-    
-    print("=" * 50)
-    print("✅ 示例运行完成！")
-    print("=" * 50)
+    # print("\n" + "=" * 50)
+    # print("akshare 数据获取模块使用示例")
+    # print("=" * 50 + "\n")
+    #
+    # # example_stock_list()
+    # # example_history_data()
+    # example_minute_data()
+    #
+    # print("=" * 50)
+    # print("✅ 示例运行完成！")
+    # print("=" * 50)
+
+    from data.fetcher import DataFetcher
+
+    fetcher = DataFetcher()
+
+    # 1. 获取历史日线
+    # df = fetcher.get_stock_history("000001", "2024-01-01", "2024-12-08")
+    # print(df.head())
+    #
+    # # 2. 获取实时行情
+    # df = fetcher.get_realtime_quote(["000001", "600519"])
+    # print(df.head())
+
+    # 3. 获取股票列表
+    # df = fetcher.get_stock_list()
+    # print(df.head())
+
+    # 4. 获取5分钟数据
+    df = fetcher.get_minute_data("000001", period="5")
+    print(df.head())

@@ -1,0 +1,2 @@
+2025-12-10 23:42:22.042 | INFO     | data.fetcher:get_stock_history:68 - 获取 000001 历史数据成功，共 225 条
+2025-12-10 23:43:41.018 | INFO     | data.fetcher:get_minute_data:132 - 获取 000001 5分钟数据成功，共 1488 条
